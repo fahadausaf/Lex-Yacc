@@ -100,8 +100,8 @@ int lookup_word(char *word)
 
   /* search down the list looking for the word */
   for(; wp; wp = wp->next) {
-  if(strcmp(wp->word_name, word) == 0)
-  return wp->word_type;
+    if(strcmp(wp->word_name, word) == 0)
+    return wp->word_type;
   }
 
   return LOOKUP;    /* not found */
