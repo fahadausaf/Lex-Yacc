@@ -4,6 +4,8 @@
  * a verb/not a verb.
  */
 
+ printf("Initial C code copied into the final program");
+
 %}
 %%
 
